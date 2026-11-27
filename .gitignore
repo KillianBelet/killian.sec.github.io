@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.studio/
+.DS_Store

@@ -1,0 +1,304 @@
+{
+  "_aide": "Tout le contenu du site se modifie ici ou, plus simplement, dans le Studio (npm run studio). Les articles sont dans content/articles/.",
+  "site": {
+    "url": "https://killian.example.com",
+    "lang": "fr",
+    "locale": "fr_FR",
+    "title": "Killian | DevSecOps & Cybersécurité",
+    "description": "Killian, développeur Full Stack et DevSecOps : tests d'intrusion, automatisation de la sécurité, Kubernetes/GitOps, détection open source (Wazuh, CrowdSec, Falco).",
+    "logo": "killian",
+    "logoAccent": ".sec",
+    "copyrightName": "Killian"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/killianbelet/",
+    "github": "",
+    "email": ""
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "name": "Killian",
+    "bio": "Développeur Full Stack et DevSecOps. Je conçois une sécurité automatisée, mesurable et vérifiable : tests d'intrusion, détection d'intrusion et supervision, avec des outils open source.",
+    "role": "Full Stack · DevSecOps · Sécurité offensive · Automatisation",
+    "location": "Paris, Île-de-France",
+    "cvUrl": "",
+    "interests": [
+      "Joueur d'échecs"
+    ],
+    "pipelineTitle": "Ma chaîne de sécurité, du commit à la production",
+    "pipeline": [
+      {
+        "stage": "Analyse",
+        "tool": "trivy",
+        "detail": "Images, dépendances et configurations"
+      },
+      {
+        "stage": "Pentest",
+        "tool": "shannon",
+        "detail": "Tests d'intrusion automatisés"
+      },
+      {
+        "stage": "Déploiement",
+        "tool": "argo cd",
+        "detail": "GitOps avec Kustomize"
+      },
+      {
+        "stage": "Protection",
+        "tool": "crowdsec",
+        "detail": "WAF et détection comportementale"
+      },
+      {
+        "stage": "Exécution",
+        "tool": "falco",
+        "detail": "Détection à l'exécution"
+      },
+      {
+        "stage": "Supervision",
+        "tool": "wazuh",
+        "detail": "SIEM, en continu"
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Mes domaines d'intervention",
+    "items": [
+      {
+        "icon": "crosshair",
+        "title": "Tests d'intrusion",
+        "text": "Tests d'intrusion d'applications web et d'API, outillés par l'IA (Shannon) et revus par un humain : chaque résultat est vérifié et priorisé avant d'arriver dans votre rapport."
+      },
+      {
+        "icon": "workflow",
+        "title": "Automatisation de la sécurité",
+        "text": "Environnements et comptes de test, lancement des scans, rapports, création de tickets : j'automatise ce qui peut l'être pour obtenir des résultats reproductibles et garder le temps humain pour l'analyse."
+      },
+      {
+        "icon": "eye",
+        "title": "Détection & SIEM",
+        "text": "Une chaîne de détection open source : CrowdSec pour la protection applicative (WAF), Falco pour la détection à l'exécution, Wazuh pour centraliser et corréler les alertes."
+      },
+      {
+        "icon": "box",
+        "title": "Cloud & Kubernetes",
+        "text": "Clusters provisionnés avec Ansible, exposition via Traefik, déploiements GitOps avec Argo CD et Kustomize, supervision Prometheus, Grafana et Loki."
+      },
+      {
+        "icon": "key",
+        "title": "Identités & secrets",
+        "text": "Authentification centralisée avec Keycloak et OIDC, droits limités par RBAC, secrets gérés dans Vault plutôt que dans le code."
+      },
+      {
+        "icon": "file-text",
+        "title": "Procédures & conformité",
+        "text": "Procédures opérationnelles et de sécurité rédigées dans une logique ISO 27001 et PSSI, pour que la sécurité tienne dans la durée."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mes compétences",
+    "groups": [
+      {
+        "title": "Sécurité offensive",
+        "items": [
+          "Tests d'intrusion web et API",
+          "Shannon",
+          "Audit de sécurité",
+          "MITRE ATT&CK"
+        ]
+      },
+      {
+        "title": "Détection & vulnérabilités",
+        "items": [
+          "Wazuh (SIEM)",
+          "CrowdSec (WAF)",
+          "Falco",
+          "Trivy"
+        ]
+      },
+      {
+        "title": "Cloud & Kubernetes",
+        "items": [
+          "Kubernetes",
+          "Docker",
+          "Helm",
+          "Kustomize",
+          "Argo CD",
+          "Ansible",
+          "Traefik"
+        ]
+      },
+      {
+        "title": "Identités & secrets",
+        "items": [
+          "Keycloak",
+          "OIDC",
+          "RBAC",
+          "HashiCorp Vault"
+        ]
+      },
+      {
+        "title": "Observabilité",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "Loki"
+        ]
+      },
+      {
+        "title": "Conformité",
+        "items": [
+          "ISO 27001",
+          "PSSI",
+          "Procédures de sécurité"
+        ]
+      },
+      {
+        "title": "Automatisation & IA",
+        "items": [
+          "Python",
+          "Bash",
+          "GitHub Actions",
+          "Mistral (open source)",
+          "LlamaIndex",
+          "Claude Code"
+        ]
+      },
+      {
+        "title": "Développement",
+        "items": [
+          "Angular",
+          "Node.js",
+          "Sails.js",
+          "Symfony",
+          "MongoDB",
+          "PostgreSQL",
+          "Redis",
+          "Lighthouse"
+        ]
+      },
+      {
+        "title": "Intégration",
+        "items": [
+          "RabbitMQ",
+          "WebSocket",
+          "VoIP",
+          "WinDev"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Expérience",
+    "items": [
+      {
+        "period": "Juil. 2025 – Aujourd'hui",
+        "title": "Développeur Full Stack",
+        "org": "Maltese Technologies · Alternance",
+        "place": "Paris, Île-de-France · Hybride",
+        "initials": "MT",
+        "text": "Alternance dans le cadre du Master of Science Cybersécurité et Cloud Computing d'Epitech."
+      },
+      {
+        "period": "Juil. 2021 – Févr. 2025",
+        "title": "Développeur logiciel",
+        "org": "Novelcom · Alternance",
+        "place": "Paris, Île-de-France",
+        "initials": "N",
+        "text": "Développement d'applications web avec Symfony et Angular, et intégration de systèmes hétérogènes : briques WinDev, échanges temps réel et asynchrones (RabbitMQ, WebSocket) et téléphonie (VoIP)."
+      }
+    ],
+    "heading": "Mon parcours"
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "period": "2025 – 2027",
+        "title": "Master of Science Cybersécurité et Cloud Computing",
+        "org": "Epitech, l'école de l'excellence informatique",
+        "initials": "E",
+        "text": "En cours. Spécialisation sécurité et cloud : cluster Kubernetes GitOps, sécurité offensive en laboratoire isolé (voir Projets)."
+      },
+      {
+        "period": "Août 2023 – Janv. 2025",
+        "title": "Bachelor Concepteur Projet SI",
+        "org": "ETNA, école d'alternance en informatique",
+        "initials": "ET",
+        "text": "Diplôme obtenu."
+      },
+      {
+        "period": "2021 – 2023",
+        "title": "BTS Services informatiques aux organisations",
+        "org": "PROMEO Formation",
+        "initials": "P",
+        "text": "Diplôme obtenu."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "intro": "Projets menés en formation à Epitech et à titre personnel, avec une approche sécurité et open source de bout en bout.",
+    "items": [
+      {
+        "category": "Cloud / Kubernetes",
+        "title": "Cluster Kubernetes GitOps",
+        "text": "Projet Epitech : cluster Kubernetes provisionné avec Ansible, exposition via Traefik, authentification OIDC avec Keycloak, supervision Prometheus, Grafana et Loki, secrets gérés hors Git, déploiement applicatif en GitOps avec Argo CD et Kustomize.",
+        "tags": [
+          "Kubernetes",
+          "Ansible",
+          "Argo CD",
+          "Keycloak",
+          "Prometheus",
+          "Helm"
+        ]
+      },
+      {
+        "category": "Sécurité offensive",
+        "title": "Sécurité offensive en laboratoire",
+        "text": "Projet Epitech : techniques offensives (command and control, cartographie MITRE ATT&CK) mises en œuvre dans un laboratoire isolé et encadré, avec une analyse croisée côté attaquant et côté défenseur (détection et réponse).",
+        "tags": [
+          "Red team",
+          "MITRE ATT&CK",
+          "Détection"
+        ]
+      },
+      {
+        "category": "Projet personnel",
+        "icon": "lock",
+        "title": "Ce portfolio, sécurisé de bout en bout",
+        "text": "Site statique sans serveur applicatif ni base de données : Content-Security-Policy stricte, aucune ressource tierce, en-têtes de sécurité générés au build. Outil d'édition local protégé (jeton de session, anti-CSRF, anti-DNS rebinding, contrôle des images par signature) et CI avec actions épinglées par SHA, audit des dépendances et tests.",
+        "tags": [
+          "CSP",
+          "Supply chain",
+          "CI/CD",
+          "Node.js"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ils en parlent",
+    "items": [
+      {
+        "name": "Julien Boron",
+        "role": "IT · Responsable direct de Killian",
+        "text": "Son intuition technique et sa curiosité intellectuelle lui permettent d'apporter des solutions pertinentes et d'ouvrir de nouvelles voies."
+      },
+      {
+        "name": "Sébastien Lemoine",
+        "role": "Formateur et consultant indépendant IT, cybersécurité & IA",
+        "text": "Killian a su se distinguer et a montré une capacité d'analyse et de conception logiciel que je n'ai que trop rarement pu voir chez des étudiants de 1ère année."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Derniers articles",
+    "homeCount": 3,
+    "pageTitle": "Blog",
+    "pageIntro": "Notes de terrain sur la cybersécurité, la sécurité des pipelines et les outils open source de détection."
+  },
+  "contact": {
+    "title": "Travaillons ensemble",
+    "text": "Une question, un projet, un échange sur la sécurité de vos applications ou l'automatisation de vos tests ? Le plus simple est de m'écrire sur LinkedIn."
+  }
+}
